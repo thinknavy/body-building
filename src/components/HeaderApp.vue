@@ -27,18 +27,19 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              >عن البطولة <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="#about-app" v-smooth-scroll>عن البطولة <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">المشاركين</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">المباريات</a>
+            <a class="nav-link" href="#" >المباريات</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">الجوائز</a>
+            <a class="nav-link" href="#class-app" v-smooth-scroll>فئات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#awards-app" v-smooth-scroll>الجوائز</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">الفاعليات</a>

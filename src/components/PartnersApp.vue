@@ -1,6 +1,6 @@
 <template>
   <div id="partners-app">
-    <Title title="فئات البطولة" />
+    <Title title="شركاء النجاح" />
     <div class="container">
       <div class="row row justify-content-center">
         <div class="col">
@@ -23,8 +23,8 @@
         </div>
       </div>
 
-      <h1>برعاية</h1>
-      <div class="row row justify-content-center mt-5">
+      <h1 class="mt-5">برعاية</h1>
+      <div class="row row justify-content-center">
         <div class="col">
           <img src="@/assets/sponsers/logos7.png" class="rounded my-2" alt="...">
         </div>

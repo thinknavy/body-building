@@ -12,7 +12,7 @@
 
        <ul class="list-unstyled">
          <li>
-           <a href="#!">عن البطولة</a>
+           <a href="#about-app" v-smooth-scroll>عن البطولة</a>
          </li>
          <li>
            <a href="#!">المشاركين</a>
@@ -21,7 +21,7 @@
            <a href="#!">المباريات</a>
          </li>
          <li>
-           <a href="#!">الجوائز</a>
+           <a href="#awards-app" v-smooth-scroll>الجوائز</a>
          </li>
        </ul>
 
@@ -95,5 +95,10 @@ a{
 a:hover{
   color:#fff;
   text-decoration: none;
+}
+@media (max-width: 768px){
+  .list-unstyled{
+    padding-right: 0px;
+  }
 }
 </style>

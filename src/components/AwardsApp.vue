@@ -1,6 +1,6 @@
 <template>
   <div id="awards-app" class="py-4">
-    <Title title="فئات البطولة" />
+    <Title title="جوائز البطولة" />
     <div class="container">
 
       <div class="row justify-content-center awards-image py-3" data-aos="fade-up"
