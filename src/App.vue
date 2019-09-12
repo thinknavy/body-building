@@ -1,16 +1,15 @@
 <template>
   <div id="app">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
     <Header />
-    <div class="container-fluid">
-
-      <About />
-      <Class />
-      <Awards />
-      <partners />
-      <MapGoogle/>
-
-    </div>
+      <router-view />
     <Footer />
+
 
 
   </div>
@@ -19,23 +18,14 @@
 <script>
 // @ is an alias to /src
 import Header from '@/components/HeaderApp.vue';
-import About from '@/components/AboutApp.vue';
-import Class from '@/components/ClassApp.vue';
-import Awards from '@/components/AwardsApp.vue';
-import MapGoogle from '@/components/MapApp.vue';
+
 import Footer from '@/components/FooterApp.vue';
-import Partners from '@/components/PartnersApp.vue';
 
 export default {
   name: 'app',
   components: {
     Header,
-    About,
-    Class,
-    Awards,
-    MapGoogle,
     Footer,
-    Partners,
   },
 };
 </script>
@@ -52,6 +42,7 @@ export default {
   color: #fff;
   background: url("./assets/sectionBg-360.jpg") repeat;
   background-position: center;
+  background-attachment: fixed;
 
 }
 #nav {

@@ -23,11 +23,11 @@
       </div>
 
       <div class="awards-content1 py-2">
-          <h1 class="my-3">ريال 50000</h1>
+          <h1 class="my-3"><span>50000</span> ريال</h1>
           <p>جائزة الفائز بلقب بطل الأبطال فى فئة كمال الأجسام</p>
       </div>
       <div class="awards-content py-2">
-          <h3 class="my-3">ريال 30000</h3>
+          <h3 class="my-3"><span>30000</span> ريال</h3>
           <p>جائزة الفائز بلقب بطل الأبطال فى فئة الفيزيك</p>
       </div>
     </div>

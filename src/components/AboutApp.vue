@@ -1,5 +1,6 @@
 <template>
   <div id="about-app" class="py-4">
+
     <Title title="نبذة عن البطولة" />
     <div class="container">
       <div class="row">
@@ -19,8 +20,8 @@
             وغذائياً وأن يكون مصدر إلهام لجيل الشباب للوصول إلى جسم مثالي.
           </p>
         </div>
-        <div class="about-image col-4 d-none d-lg-block">
-          <img src="@/assets/aboutBg.png" alt="">
+        <div class="about-image col-6 d-none d-lg-block">
+          <img src="@/assets/aboutBg.png" alt="" class="img-fluid float-left">
         </div>
       </div>
     </div>
@@ -49,6 +50,7 @@ export default {
 }
 .about-content .content{
   text-align: right;
+  line-height: normal;
 }
 .about-image img{
   box-shadow: 4px 3px 10px 0px #007933;

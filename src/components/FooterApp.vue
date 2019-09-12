@@ -20,6 +20,9 @@
          <li>
            <a href="#!">المباريات</a>
          </li>
+         <li class="nav-item">
+           <a href="#class-app" v-smooth-scroll>فئات</a>
+         </li>
          <li>
            <a href="#awards-app" v-smooth-scroll>الجوائز</a>
          </li>

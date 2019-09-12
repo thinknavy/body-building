@@ -1,5 +1,5 @@
 <template>
-  <div id="header-app">
+  <div id="header-app" class="pt-5">
     <!-- logo -->
     <div class="container">
     <div class="row logo">
@@ -12,7 +12,7 @@
       </div>
     </div>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md py-3">
       <button
         class="navbar-toggler"
         type="button"
@@ -22,12 +22,12 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>القائمة الرئيسية
+        <i class="fas fa-chevron-circle-down"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about-app" v-smooth-scroll>عن البطولة <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">القائمة الرئيسية<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">المشاركين</a>
@@ -36,13 +36,7 @@
             <a class="nav-link" href="#" >المباريات</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#class-app" v-smooth-scroll>فئات</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#awards-app" v-smooth-scroll>الجوائز</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">الفاعليات</a>
+            <a class="nav-link" href="#">الفعليات</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">المعرض</a>
@@ -53,43 +47,8 @@
         </ul>
       </div>
     </nav>
-    <!-- carousel -->
-    <div
-      id="carouselExampleFade"
-      class="carousel slide carousel-fade"
-      data-ride="carousel"
-    >
 
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="@/assets/big-ramy.png" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/big-ramy.png" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/big-ramy.png" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleFade"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleFade"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+
   </div>
 </template>
 <script>
@@ -116,6 +75,10 @@ export default {
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
+nav .navbar-nav  a {
+	color: #fff !important;
+}
+
 @media (max-width: 768px){
   nav{
     background: #079646;
