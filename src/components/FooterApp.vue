@@ -12,19 +12,13 @@
 
        <ul class="list-unstyled">
          <li>
-           <a href="#about-app" v-smooth-scroll>عن البطولة</a>
+           <a href="#">الرئيسية</a>
          </li>
          <li>
            <a href="#!">المشاركين</a>
          </li>
          <li>
            <a href="#!">المباريات</a>
-         </li>
-         <li class="nav-item">
-           <a href="#class-app" v-smooth-scroll>فئات</a>
-         </li>
-         <li>
-           <a href="#awards-app" v-smooth-scroll>الجوائز</a>
          </li>
        </ul>
 
@@ -42,6 +36,9 @@
          </li>
          <li>
            <a href="#!">المعرض</a>
+         </li>
+         <li>
+           <a href="https://drive.google.com/open?id=1nHeMMkrPifeVJ_WQPh8IZ2IsmVH4rG4ujFtBvyf2M40" target="_blank">تسجيل</a>
          </li>
          <li>
            <a href="#!">اتصل بنا</a>
@@ -73,8 +70,7 @@
  <!-- Footer Links -->
 
  <!-- Copyright -->
- <div class="footer-copyright text-center py-3">© 2019 Copyright:
-   <a href="http://thinknavy.net/">ThinkNavy.net</a>
+ <div class="footer-copyright text-center py-3">© 2019 Copyright
  </div>
  <!-- Copyright -->
 

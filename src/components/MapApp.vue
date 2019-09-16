@@ -22,8 +22,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 #map-app{
-  background: url("../assets/sectionBg-360.jpg") repeat;
-  background-position: top;
-  background-size: auto;
+  // background: url("../assets/sectionBg-360.jpg") repeat;
+  // background-position: top;
+  // background-size: auto;
 }
 </style>

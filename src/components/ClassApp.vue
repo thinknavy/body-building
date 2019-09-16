@@ -37,9 +37,9 @@ col{
   padding: 0px !important;
 }
 #class-app{
-  background: url("../assets/sectionBg-360.jpg") repeat;
-  background-position: top;
-  background-size: auto;
+  // background: url("../assets/sectionBg-360.jpg") repeat;
+  // background-position: top;
+  // background-size: auto;
 }
 @media (max-width: 992px){
   .class-one{

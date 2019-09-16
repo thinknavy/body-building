@@ -22,24 +22,28 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i class="fas fa-chevron-circle-down"></i>
+        <i class="fas fa-chevron-circle-down"></i>القائمة
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">القائمة الرئيسية<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
+          <router-link to="/" tag="li" class="nav-item">
+            <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+          </router-link>
+          <router-link to="/players" tag="li" class="nav-item">
             <a class="nav-link" href="#">المشاركين</a>
-          </li>
+          </router-link>
           <li class="nav-item">
             <a class="nav-link" href="#" >المباريات</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">الفعليات</a>
+            <a class="nav-link" href="#">الفاعليات</a>
+
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">المعرض</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/open?id=1nHeMMkrPifeVJ_WQPh8IZ2IsmVH4rG4ujFtBvyf2M40" target="_blank">تسجيل</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">اتصل بنا</a>

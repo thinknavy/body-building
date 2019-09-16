@@ -7,7 +7,9 @@
       crossorigin="anonymous"
     />
     <Header />
+    <loading-screen ref="loadingScreen">
       <router-view />
+    </loading-screen>
     <Footer />
 
 
@@ -16,6 +18,7 @@
 </template>
 
 <script>
+import LoadingScreen from 'vue-loading-screen';
 // @ is an alias to /src
 import Header from '@/components/HeaderApp.vue';
 
@@ -26,6 +29,33 @@ export default {
   components: {
     Header,
     Footer,
+    LoadingScreen,
+  },
+  data() {
+    return {
+      objects: [],
+    };
+  },
+  methods: {
+    refresh() {
+      const p = new Promise((success) => {
+        setTimeout(success, 1000);
+      });
+
+      this.$refs.loadingScreen.load(p);
+
+      p.then(() => {
+        this.objects = [
+          { id: 1, name: 'Foo' },
+          { id: 2, name: 'Bar' },
+        ];
+      });
+    },
+  },
+  created() {
+    this.$nextTick(() => {
+      this.refresh();
+    });
   },
 };
 </script>
